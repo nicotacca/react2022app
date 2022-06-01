@@ -1,24 +1,41 @@
 import logo from './logo.svg';
 import './App.css';
+import Noticia from './components/Noticia';
+
+// Creamos otro componente para mostrar.
+
+
+// La idea es utilizar app para hacer todo, comunicamos el primer componente.
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    /* componente padre en el caso de que queramos tener varios div */
+    <>
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        </header>
+
+        {/* Le paso mi componente */}
+
+        <Noticia></Noticia>
+        <Noticia></Noticia>
+        <Noticia></Noticia>
+        <Noticia></Noticia>
+
+      </div>
+    </>
   );
 }
 
