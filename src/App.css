@@ -38,9 +38,10 @@
 }
 
 .mi-titulo {
-  color: red;
+  color: blueviolet;
 }
 
 .mi-clase {
-  background-color: blue;
+  background-color: grey;
+  color: green;
 }

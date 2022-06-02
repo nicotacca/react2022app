@@ -13,7 +13,7 @@ function Noticia() {
     return (
       <div className = "mi-clase">
         <h1 className='mi-titulo'>Mi titulo: {titulo}</h1>
-        {/* <h1 className='mi-descripcion'>Descripcion: {descripcion}</h1> */}
+        <h1 className='mi-descripcion'>Descripcion: {descripcion}</h1>
       </div>
     )
   }
