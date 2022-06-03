@@ -1,6 +1,8 @@
-import logo from './logo.svg';
+/* import logo from './logo.svg'; */
 import './App.css';
 import Noticia from './components/Noticia';
+import Header from './components/Header';
+import ClassComponent from './components/ClassComponent';
 
 // Creamos otro componente para mostrar.
 
@@ -15,7 +17,9 @@ function App() {
 
         {/* Le paso mi componente */}
 
+        <Header></Header>
         <Noticia></Noticia>
+        <ClassComponent></ClassComponent>
 
       </div>
     </>
