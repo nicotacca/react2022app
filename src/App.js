@@ -18,8 +18,9 @@ function App() {
         {/* Le paso mi componente */}
 
         <Header></Header>
-        <Noticia></Noticia>
-        <ClassComponent></ClassComponent>
+        <Noticia titulo = "Primer Noticia" descripcion = "detalles de la noticia 1"></Noticia>
+        <Noticia titulo = "Segunda Noticia"></Noticia>
+        <ClassComponent titulo = "Este es el class component"></ClassComponent>
 
       </div>
     </>
